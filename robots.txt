@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cy1414569-prog.github.io/sitemap.xml
