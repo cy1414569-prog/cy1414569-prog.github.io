@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Tools Field Notes | Independent Testing Archive</title>
+  <meta name="description" content="Independent field notes and practical evaluation criteria for AI video, multimodal, research, and content creation tools.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://cy1414569-prog.github.io/">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172033;
+      --muted: #5d6678;
+      --line: #dfe3e8;
+      --paper: #ffffff;
+      --canvas: #f6f7f9;
+      --green: #176b50;
+      --blue: #2457a7;
+      --rose: #a44456;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--canvas);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    a { color: inherit; }
+
+    .shell {
+      width: min(1080px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 1px solid var(--line);
+      background: var(--paper);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 68px;
+      gap: 24px;
+    }
+
+    .brand {
+      font-weight: 750;
+      font-size: 18px;
+    }
+
+    .header-note {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    main { padding: 64px 0 80px; }
+
+    .intro {
+      max-width: 760px;
+      margin-bottom: 38px;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 750;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 700px;
+      font-size: clamp(36px, 6vw, 64px);
+      line-height: 1.06;
+      letter-spacing: 0;
+    }
+
+    .lede {
+      margin: 20px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+      max-width: 680px;
+    }
+
+    .list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    article {
+      display: flex;
+      flex-direction: column;
+      min-height: 360px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--paper);
+      overflow: hidden;
+    }
+
+    .visual {
+      display: grid;
+      min-height: 132px;
+      padding: 22px;
+      align-content: space-between;
+      color: #fff;
+    }
+
+    .visual.video { background: var(--blue); }
+    .visual.content { background: var(--rose); }
+
+    .visual strong {
+      width: min-content;
+      font-size: 40px;
+      line-height: 1;
+    }
+
+    .visual span {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .article-body {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      padding: 24px;
+    }
+
+    .meta {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 23px;
+      line-height: 1.28;
+      letter-spacing: 0;
+    }
+
+    h2 a {
+      text-decoration: none;
+    }
+
+    h2 a:hover { text-decoration: underline; }
+
+    .summary {
+      margin: 14px 0 24px;
+      color: var(--muted);
+    }
+
+    .status {
+      margin-top: auto;
+      width: fit-content;
+      color: var(--green);
+      font-size: 14px;
+      font-weight: 750;
+    }
+
+    .read {
+      margin-top: auto;
+      width: fit-content;
+      color: var(--green);
+      font-size: 14px;
+      font-weight: 750;
+      text-underline-offset: 4px;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      background: var(--paper);
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 24px 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 720px) {
+      .header-note { display: none; }
+      main { padding-top: 44px; }
+      .list { grid-template-columns: 1fr; }
+      .footer-inner { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="shell header-inner">
+      <div class="brand">AI Tools Field Notes</div>
+      <div class="header-note">Independent comparisons and practical reviews</div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">Independent testing archive</p>
+      <h1 id="page-title">Useful AI tools, tested in real workflows.</h1>
+      <p class="lede">A growing collection of practical evaluation notes covering AI video, multimodal creation, research, and content production.</p>
+    </section>
+
+    <section class="list" aria-label="Evaluation areas">
+      <article>
+        <div class="visual video" aria-hidden="true">
+          <strong>10</strong>
+          <span>Video and multimodal tools</span>
+        </div>
+        <div class="article-body">
+          <p class="meta"><time datetime="2026-06">June 2026</time> · Medium · Comparison</p>
+          <h2><a href="https://medium.com/@cy2025421/i-compared-10-ai-video-and-multimodal-tools-in-2026-heres-what-each-one-is-best-for-53c2dbc65468">I Compared 10 AI Video and Multimodal Tools in 2026</a></h2>
+          <p class="summary">A practical comparison of ten current platforms, focused on what each tool does best and where it fits in a real creative workflow.</p>
+          <a class="read" href="https://medium.com/@cy2025421/i-compared-10-ai-video-and-multimodal-tools-in-2026-heres-what-each-one-is-best-for-53c2dbc65468">Read the comparison on Medium</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="visual content" aria-hidden="true">
+          <strong>02</strong>
+          <span>Content workflow systems</span>
+        </div>
+        <div class="article-body">
+          <p class="meta">Evaluation area · Everyday workflows</p>
+          <h2>AI content creation tools</h2>
+          <p class="summary">Testing looks at research accuracy, writing control, image generation, automation, collaboration, export options, and whether a tool remains useful beyond its first demo.</p>
+          <span class="status">Research notes in preparation</span>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <span>Independent evaluation notes for practical AI workflows.</span>
+      <span>Last updated July 1, 2026.</span>
+    </div>
+  </footer>
+</body>
+</html>
